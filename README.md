@@ -9,15 +9,15 @@
 ![SEC EDGAR](https://img.shields.io/badge/Data-SEC_EDGAR-navy?style=flat-square)
 
 
-## Screenshots
+# Screenshots
 
-### Ask Questions
+Ask Questions
 ![Ask Questions](screenshots/ask.png)
 
-### Compare Companies
+Compare Companies
 ![Compare](screenshots/compare.png)
 
-### Red Flag Scanner
+Red Flag Scanner
 ![Red Flags](screenshots/redflags.png)
 ---
 
