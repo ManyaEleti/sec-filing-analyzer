@@ -1,6 +1,6 @@
-# 📊 SEC Filing Analyzer — Financial Intelligence Platform
+#  SEC Filing Analyzer — Financial Intelligence Platform
 
-> Natural language analysis of real SEC 10-K annual filings using RAG + LLM. Ask questions, compare companies, and detect risk signals — all powered by live SEC EDGAR data.
+> Natural language analysis of real SEC 10-K annual filings using RAG + LLM. Ask questions, compare companies and detect risk signals — all powered by live SEC EDGAR data.
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue?style=flat-square&logo=python)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.x-red?style=flat-square&logo=streamlit)
@@ -10,7 +10,7 @@
 
 ---
 
-## 🎯 What This Does
+#  What This Does
 
 Most financial analysis tools either cost thousands of dollars (Bloomberg Terminal) or rely on outdated Kaggle datasets. This platform pulls **real, live 10-K filings directly from the SEC EDGAR API** and makes them queryable in plain English using a production-grade RAG pipeline.
 
@@ -21,19 +21,19 @@ Most financial analysis tools either cost thousands of dollars (Bloomberg Termin
 
 ---
 
-## 🏗️ Architecture
+#  Architecture
 
 ---
 
-## ⚡ Features
+#  Features
 
-### 💬 Ask Questions
+#  Ask Questions
 Natural language queries over any loaded 10-K filing. The system retrieves the most semantically relevant excerpts and synthesizes a grounded answer using Llama 3.1.
 
-### ⚖️ Compare Companies
+# Compare Companies
 Side-by-side analysis of two companies on any dimension — revenue model, risk factors, competitive strategy, AI approach, cybersecurity posture.
 
-### 🚨 Red Flag Scanner
+# Red Flag Scanner
 Automated detection of 7 risk signal categories across every filing:
 - Legal & Litigation
 - Regulatory Risk
@@ -43,11 +43,11 @@ Automated detection of 7 risk signal categories across every filing:
 - Competition
 - Going Concern
 
-Each category is scored HIGH / MEDIUM / LOW by mention frequency, visualized as a bar chart, and summarized by the LLM.
+Each category is scored HIGH / MEDIUM / LOW by mention frequency, visualized as a bar chart and summarized by the LLM.
 
 ---
 
-## 🏢 Supported Companies
+# Supported Companies
 
 | Ticker | Company |
 |--------|---------|
@@ -62,7 +62,7 @@ Each category is scored HIGH / MEDIUM / LOW by mention frequency, visualized as 
 
 ---
 
-## 🛠️ Tech Stack
+# Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -76,21 +76,21 @@ Each category is scored HIGH / MEDIUM / LOW by mention frequency, visualized as 
 
 ---
 
-## 🚀 Getting Started
+# Getting Started
 
-### 1. Clone the repo
+1. Clone the repo
 ```bash
 git clone https://github.com/ManyaEleti/sec-filing-analyzer.git
 cd sec-filing-analyzer
 ```
 
-### 2. Create virtual environment
+2. Create virtual environment
 ```bash
 python -m venv venv
 source venv/bin/activate
 ```
 
-### 3. Install dependencies
+3. Install dependencies
 ```bash
 pip install numpy==1.26.4
 pip install torch==2.2.2
@@ -98,39 +98,39 @@ pip install sentence-transformers==2.7.0
 pip install -r requirements.txt
 ```
 
-### 4. Set up environment variables
+4. Set up environment variables
 ```bash
 echo "GROQ_API_KEY=your_groq_api_key_here" > .env
 ```
 Get a free Groq API key at [console.groq.com](https://console.groq.com)
 
-### 5. Run the app
+5. Run the app
 ```bash
 python -m streamlit run app.py
 ```
 
-### 6. Load a company and start querying
+6. Load a company and start querying
 - Select a company from the sidebar
 - Click **"Load 10-K Filing"** (fetches live from SEC EDGAR)
 - Ask questions, compare companies, or run the red flag scanner
 
 ---
 
-## 📁 Project Structure
+#  Project Structure
 
 ---
 
-## 💡 Why This Project
+# Why This Project
 
 Every major financial institution — JPMorgan, Goldman Sachs, Bloomberg — is actively building internal tools to make SEC filings queryable with LLMs. This project demonstrates:
 
-1. **Production RAG architecture** — not a toy chatbot, but a real retrieval pipeline with semantic chunking, FAISS indexing, and grounded generation
+1. **Production RAG architecture** — not a toy chatbot but a real retrieval pipeline with semantic chunking, FAISS indexing and grounded generation
 2. **Real financial domain knowledge** — understanding of 10-K structure, risk factors, XBRL metadata filtering
 3. **End-to-end ML engineering** — data ingestion → embedding → retrieval → generation → deployed UI
 
 ---
 
-## 👩‍💻 Author
+# Author
 
 **Lakshmi Manya Eleti**  
 ML Engineer · MS Data Science, UMBC (Dec 2026)  
