@@ -8,6 +8,17 @@
 ![Groq](https://img.shields.io/badge/LLM-Llama_3.1_via_Groq-green?style=flat-square)
 ![SEC EDGAR](https://img.shields.io/badge/Data-SEC_EDGAR-navy?style=flat-square)
 
+
+## Screenshots
+
+### Ask Questions
+![Ask Questions](screenshots/ask.png)
+
+### Compare Companies
+![Compare](screenshots/compare.png)
+
+### Red Flag Scanner
+![Red Flags](screenshots/redflags.png)
 ---
 
 #  What This Does
