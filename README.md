@@ -14,11 +14,23 @@
 Ask Questions
 ![Ask Questions](screenshots/ask.png)
 
+Ask Questions — Detailed Answer
+![Ask Questions 2](screenshots/ask2.png)
+
+Ask Questions — Revenue Analysis
+![Ask Questions 3](screenshots/ask3.png)
+
 Compare Companies
 ![Compare](screenshots/compare.png)
 
+Compare Companies — Detailed Result
+![Compare 2](screenshots/compare2.png)
+
 Red Flag Scanner
 ![Red Flags](screenshots/redflags.png)
+
+Red Flag Scanner — Detailed Breakdown
+![Red Flags 2](screenshots/redflags2.png)
 ---
 
 #  What This Does
